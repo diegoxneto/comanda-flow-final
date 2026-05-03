@@ -1,7 +1,21 @@
 import React, { useState } from "react";
+import { 
+  Typography, 
+  Box, 
+  Stack, 
+  Button, 
+  Card, 
+  CardContent, 
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Paper
+} from "@mui/material";
 
 const Caja: React.FC = () => {
-  // Datos de prueba para que la maestra vea movimiento en la página
   const [cuentas, setCuentas] = useState([
     { 
       id: 105, 
@@ -86,15 +100,4 @@ const Caja: React.FC = () => {
             </Card>
           ))
         ) : (
-          <Box sx={{ textAlign: 'center', py: 10 }}>
-            <Typography variant="h5" color="textSecondary">
-              No hay cuentas pendientes por cobrar.
-            </Typography>
-          </Box>
-        )}
-      </Stack>
-    </Box>
-  );
-};
-
-export default Caja;
+          <Box sx={{ textAlign: 'center',

@@ -1,20 +1,4 @@
 import React, { useState } from "react";
-import { 
-  Typography, 
-  Box, 
-  Stack, 
-  Button, 
-  Card, 
-  CardContent, 
-  Divider,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Paper
-} from "@mui/material";
 
 const Caja: React.FC = () => {
   // Datos de prueba para que la maestra vea movimiento en la página

@@ -100,4 +100,15 @@ const Caja: React.FC = () => {
             </Card>
           ))
         ) : (
-          <Box sx={{ textAlign: 'center',
+          <Box sx={{ textAlign: 'center', py: 10 }}>
+            <Typography variant="h5" color="textSecondary">
+              No hay cuentas pendientes por cobrar.
+            </Typography>
+          </Box>
+        )}
+      </Stack>
+    </Box>
+  );
+};
+
+export default Caja;
